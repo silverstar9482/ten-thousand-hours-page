@@ -58,11 +58,11 @@
 
 ### 🖥️ PC
 
-<img src="../1000-hour-PC.png" alt="PC 화면 스크린샷" width="600">
+<img src="./image/1000-hour-PC.png" alt="PC 화면 스크린샷" width="600">
 
 ### 📱 Mobile
 
-<img src="../1000-hour-mobile.png" alt="모바일 화면 스크린샷" width="300">
+<img src="./image/1000-hour-mobile.png" alt="모바일 화면 스크린샷" width="300">
 
 ## 🔎 향후 진행 계획
 
