@@ -26,7 +26,7 @@ body {
 }
 /* 공동 속성 */
 strong {
-    font-weight: 900;
+    font-weight: 700;
 }
 * {
     color: #fff;
@@ -53,8 +53,8 @@ header h1 a img {
     width: 100%;
 }
 
-/* section - head txt */
-.txt-wrap {
+/* section - head title */
+.title-wrap {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -62,13 +62,13 @@ header h1 a img {
     text-align: center;
     margin-bottom: 6rem;
 }
-.txt-wrap h3 {
+.title-wrap h3 {
     font-family: "OTEnjoystoriesBA";
     color: var(--sub-color);
     font-size: 2.2rem;
     margin-bottom: 3.2rem;
 }
-.txt-wrap p {
+.title-wrap p {
     width: calc(100% - 3rem);
     max-width: 29rem;
     font-size: 1.4rem;
@@ -77,7 +77,7 @@ header h1 a img {
     position: relative;
     letter-spacing: -0.05rem;
 }
-.txt-wrap p::before {
+.title-wrap p::before {
     content: "";
     width: 2rem;
     height: 1.8rem;
@@ -87,7 +87,7 @@ header h1 a img {
     left: -2rem;
     transform: translateY(-50%);
 }
-.txt-wrap p::after {
+.title-wrap p::after {
     content: "";
     width: 2rem;
     height: 1.8rem;
@@ -129,7 +129,6 @@ header h1 a img {
     vertical-align: middle;
     font-size: 1.4rem;
     padding: 1.2rem 3.5rem;
-    padding-top: 1.5rem;
 }
 .hope-group input::placeholder {
     color: rgba(186, 188, 190, 1);
@@ -164,9 +163,8 @@ header h1 a img {
     text-align: center;
     line-height: 300%;
 }
-.res-group p span {
+.res-group p strong {
     font-size: 2.4rem;
-    font-weight: 700;
     margin: 0 1.2rem;
 }
 
@@ -265,30 +263,30 @@ footer a span {
 }
 
 @media (min-width: 769px) {
-    /* section - head txt */
+    /* section - head title */
     header {
         margin-bottom: 5.2rem;
     }
 
-    .txt-wrap {
+    .title-wrap {
         margin-bottom: 10rem;
     }
 
-    .txt-wrap h3 {
+    .titlewrap h3 {
         font-size: 3.6rem;
         margin-bottom: 8rem;
     }
-    .txt-wrap p {
+    .title-wrap p {
         width: calc(100% - (3.6rem * 2));
         max-width: 48.5rem;
         font-size: 2.4rem;
     }
-    .txt-wrap p::before {
+    .title-wrap p::before {
         width: 3.6rem;
         height: 3.2rem;
         left: -3.6rem;
     }
-    .txt-wrap p::after {
+    .title-wrap p::after {
         width: 3.6rem;
         height: 3.2rem;
         right: -3.6rem;
@@ -319,7 +317,6 @@ footer a span {
         height: 100%;
         font-size: 2.4rem;
         padding: 1.6rem 4rem;
-        padding-top: 2rem;
         border-radius: 1rem;
     }
     #hope-job {
@@ -333,7 +330,6 @@ footer a span {
         vertical-align: middle;
         font-size: 2.4rem;
         padding: 2rem 5rem;
-        padding-top: 2.8rem;
     }
 
     .hope-wrap .hope-btn::after {
@@ -349,7 +345,7 @@ footer a span {
         font-size: 2.4rem;
         line-height: 380%;
     }
-    .res-group p span {
+    .res-group p strong {
         font-size: 7.2rem;
         vertical-align: middle;
         margin: 0 1.2rem;
