@@ -46,11 +46,11 @@
 
 ```
 📦ten-thousand-hours-page
- ┝ 📂css
- │ ┝ 📜reset.css
+ ├ 📂css
+ │ ├ 📜reset.css
  │ └ 📜style.css
- ┝ 📂image
- ┝ 📜index.html
+ ├ 📂image
+ ├ 📜index.html
  └ 📜README.md
 ```
 
