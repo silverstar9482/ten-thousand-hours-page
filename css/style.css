@@ -1,0 +1,415 @@
+@import url("https://cdn.jsdelivr.net/gh/leetaewook/gmarket-sans-dynamic-subset/GmarketSans.css");
+
+@font-face {
+    font-family: "OTEnjoystoriesBA";
+    src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/OTEnjoystoriesBA.woff")
+        format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+:root {
+    --main-color: rgba(91, 35, 134, 1);
+    --sub-color: rgba(252, 238, 33, 1);
+}
+html {
+    font-size: 10px;
+}
+
+body {
+    font-family: "Gmarket Sans";
+    font-weight: 300;
+    background-color: var(--main-color);
+    word-break: keep-all;
+}
+/* 공동 속성 */
+strong {
+    font-weight: 900;
+}
+* {
+    color: #fff;
+}
+button {
+    font-family: "Gmarket Sans";
+    font-weight: 700;
+}
+
+/* head */
+
+header {
+    width: calc(100% - 8.2rem);
+    text-align: center;
+    margin: 4rem 4.1rem 3.2rem;
+    color: #fff;
+}
+header h1 {
+    max-width: 56.4rem;
+    display: block;
+    margin: 0 auto;
+}
+header h1 a img {
+    width: 100%;
+}
+
+/* section - head txt */
+.txt-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 6rem;
+}
+.txt-wrap h3 {
+    font-family: "OTEnjoystoriesBA";
+    color: var(--sub-color);
+    font-size: 2.2rem;
+    margin-bottom: 3.2rem;
+}
+.txt-wrap p {
+    width: calc(100% - 3rem);
+    max-width: 29rem;
+    font-size: 1.4rem;
+    line-height: 200%;
+    margin: 0 1.5rem;
+    position: relative;
+    letter-spacing: -0.05rem;
+}
+.txt-wrap p::before {
+    content: "";
+    width: 2rem;
+    height: 1.8rem;
+    background: url("./image/“.png") no-repeat center center / cover;
+    position: absolute;
+    top: 50%;
+    left: -2rem;
+    transform: translateY(-50%);
+}
+.txt-wrap p::after {
+    content: "";
+    width: 2rem;
+    height: 1.8rem;
+    background: url("./image/”.png") no-repeat center center / cover;
+    position: absolute;
+    top: 50%;
+    right: -2rem;
+    transform: translateY(-50%);
+}
+
+/* section - hope form */
+.hope-wrap {
+    font-size: 1.4rem;
+    text-align: center;
+    line-height: 100%;
+}
+
+.hope-group {
+    margin-bottom: 8rem;
+}
+.hope-group label {
+    display: block;
+}
+.hope-group span {
+    display: block;
+    margin: 1.2rem 0;
+}
+
+.hope-group input {
+    width: 15.6rem;
+    height: 100%;
+    border-radius: 0.8rem;
+    border: 0;
+    margin: 0 0.8rem;
+    text-align: center;
+    color: #333;
+    font-family: "Gmarket Sans";
+    font-weight: 400;
+    vertical-align: middle;
+    font-size: 1.4rem;
+    padding: 1.2rem 3.5rem;
+    padding-top: 1.5rem;
+}
+.hope-group input::placeholder {
+    color: rgba(186, 188, 190, 1);
+}
+
+.hope-wrap .hope-btn {
+    width: 24rem;
+    height: 7.2rem;
+    background-color: var(--sub-color);
+    font-weight: 600;
+    color: var(--main-color);
+    border-radius: 1.2rem;
+    box-shadow: 0.2rem 0.4rem 1rem rgba(0, 0, 0, 0.15);
+    line-height: 130%;
+    padding: 2rem 3.8rem;
+    position: relative;
+}
+.hope-wrap .hope-btn::after {
+    content: "";
+    width: 4.3rem;
+    height: 4.8rem;
+    background: url("./image/pointer.png") no-repeat 0 0 / cover;
+    position: absolute;
+    bottom: -20%;
+    right: -4.7rem;
+}
+
+/* section - hope-res-group */
+.res-group {
+    margin-top: 6.8rem;
+    font-size: 1.2rem;
+    text-align: center;
+    line-height: 300%;
+}
+.res-group p span {
+    font-size: 2.4rem;
+    font-weight: 700;
+    margin: 0 1.2rem;
+}
+
+.res-group .btn-group {
+    margin-top: 5.2rem;
+}
+
+.res-group .btn-group .go-btn {
+    width: 20.3rem;
+    height: 4.6rem;
+    border-radius: 1.2rem;
+    background-color: var(--sub-color);
+    color: var(--main-color);
+    margin-right: 0.8rem;
+}
+.res-group .btn-group .sns-btn {
+    width: 10.2rem;
+    height: 4.6rem;
+    border-radius: 1.2rem;
+    background-color: #fff;
+    color: var(--main-color);
+}
+
+/* footer */
+footer {
+    margin: 6rem 0 4.8rem;
+    text-align: center;
+}
+footer a img {
+    display: block;
+    margin: 0 auto;
+    width: 11.824rem;
+    object-fit: cover;
+}
+footer a span {
+    display: block;
+    margin: 0 auto;
+    margin-top: 1.584rem;
+    font-size: 0.9rem;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 300;
+    line-height: 130%;
+}
+
+/* modal */
+.modal-wrap {
+    width: 33rem;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 2rem;
+    padding: 4rem 4.5rem 4.2rem;
+    box-shadow: 0.4rem 0.4rem 3rem rgba(0, 0, 0, 0.15);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    /* display: block; */
+    display: none;
+}
+
+.modal-container .modal-tit {
+    margin-bottom: 2.4rem;
+}
+.modal-container .modal-tit h4,
+.modal-container .modal-tit p {
+    font-family: "OTEnjoystoriesBA";
+    color: var(--main-color);
+}
+.modal-container .modal-tit h4 {
+    font-size: 6.4rem;
+}
+.modal-container .modal-tit p {
+    font-size: 3.6rem;
+}
+.modal-container img {
+    width: 24rem;
+    object-fit: cover;
+    margin-bottom: 2.4rem;
+}
+.modal-container .close-btn {
+    width: 24rem;
+    height: 100%;
+    padding: 2.2rem 4.45rem 2rem;
+    border-radius: 1.2rem;
+    background-color: var(--sub-color);
+    color: var(--main-color);
+    box-shadow: 0.2rem 0.4rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.modal-container .close-btn span {
+    display: inline-block;
+    width: 100%;
+    color: var(--main-color);
+}
+
+@media (min-width: 769px) {
+    /* section - head txt */
+    header {
+        margin-bottom: 5.2rem;
+    }
+
+    .txt-wrap {
+        margin-bottom: 10rem;
+    }
+
+    .txt-wrap h3 {
+        font-size: 3.6rem;
+        margin-bottom: 8rem;
+    }
+    .txt-wrap p {
+        width: calc(100% - (3.6rem * 2));
+        max-width: 48.5rem;
+        font-size: 2.4rem;
+    }
+    .txt-wrap p::before {
+        width: 3.6rem;
+        height: 3.2rem;
+        left: -3.6rem;
+    }
+    .txt-wrap p::after {
+        width: 3.6rem;
+        height: 3.2rem;
+        right: -3.6rem;
+    }
+
+    /* section - hope form */
+
+    .hope-wrap {
+        max-width: 77.1rem;
+        font-size: 2.4rem;
+        text-align: center;
+        line-height: 100%;
+        margin: 0 auto;
+    }
+
+    .hope-group {
+        margin-bottom: 12rem;
+    }
+
+    .hope-wrap span {
+        display: inline-block;
+    }
+    .hope-group label {
+        line-height: 220%;
+    }
+    .hope-group input {
+        width: 22.8rem;
+        height: 100%;
+        font-size: 2.4rem;
+        padding: 1.6rem 4rem;
+        padding-top: 2rem;
+        border-radius: 1rem;
+    }
+    #hope-job {
+        margin-bottom: 2rem;
+    }
+
+    .hope-wrap .hope-btn {
+        width: calc(100% - 10rem);
+        max-width: 56.7rem;
+        height: 100%;
+        vertical-align: middle;
+        font-size: 2.4rem;
+        padding: 2rem 5rem;
+        padding-top: 2.8rem;
+    }
+
+    .hope-wrap .hope-btn::after {
+        width: 6.4rem;
+        height: 7.2rem;
+        bottom: -25%;
+        right: -7.1rem;
+    }
+
+    /* section - hope-res-group */
+    .res-group {
+        margin-top: 14.2rem;
+        font-size: 2.4rem;
+        line-height: 380%;
+    }
+    .res-group p span {
+        font-size: 7.2rem;
+        vertical-align: middle;
+        margin: 0 1.2rem;
+    }
+
+    .res-group .btn-group {
+        margin-top: 12rem;
+    }
+    .res-group .btn-group .go-btn {
+        width: 36.5rem;
+        height: 6.4rem;
+        font-size: 2.4rem;
+        margin-right: 1.2rem;
+    }
+    .res-group .btn-group .sns-btn {
+        width: 19.3rem;
+        height: 6.4rem;
+        font-size: 2.4rem;
+    }
+
+    /* footer */
+    footer {
+        margin: 12rem 0 10.6rem;
+    }
+    footer a img {
+        width: 15.8rem;
+    }
+    footer a span {
+        font-size: 1.2rem;
+    }
+
+    /* modal */
+    .modal-wrap {
+        width: calc(100% - (6rem * 2));
+        max-width: 80rem;
+        padding: 8rem 14.6rem;
+
+        /* display: block; */
+    }
+    .modal-container .modal-tit {
+        margin-bottom: 4rem;
+    }
+    .modal-container .modal-tit h4 {
+        font-size: 9.6rem;
+    }
+    .modal-container .modal-tit h4::after {
+        content: "♥♥♥";
+    }
+    .modal-container img {
+        width: 100%;
+        max-width: 43.8rem;
+        margin-bottom: 6rem;
+    }
+    .modal-container .close-btn {
+        width: 100%;
+        max-width: 50.8rem;
+        font-size: 2.4rem;
+    }
+
+    .modal-container .close-btn span {
+        width: auto;
+    }
+}
