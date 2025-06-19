@@ -62,7 +62,7 @@ header h1 a img {
     text-align: center;
     margin-bottom: 6rem;
 }
-.title-wrap h3 {
+.title-wrap h2 {
     font-family: "OTEnjoystoriesBA";
     color: var(--sub-color);
     font-size: 2.2rem;
@@ -99,7 +99,7 @@ header h1 a img {
 }
 
 /* section - hope form */
-.hope-wrap {
+.hope-frm {
     font-size: 1.4rem;
     text-align: center;
     line-height: 100%;
@@ -134,7 +134,7 @@ header h1 a img {
     color: rgba(186, 188, 190, 1);
 }
 
-.hope-wrap .hope-btn {
+.hope-frm .hope-btn {
     width: 24rem;
     height: 7.2rem;
     background-color: var(--sub-color);
@@ -146,11 +146,11 @@ header h1 a img {
     padding: 2rem 3.8rem;
     position: relative;
 }
-.hope-wrap .hope-btn::after {
+.hope-frm .hope-btn::after {
     content: "";
     width: 4.3rem;
     height: 4.8rem;
-    background: url("./../image/pointer.png") no-repeat 0 0 / cover;
+    background: url("./../image/Frame\ 21.png") no-repeat 0 0 / cover;
     position: absolute;
     bottom: -20%;
     right: -4.7rem;
@@ -199,8 +199,7 @@ footer a img {
     width: 11.824rem;
     object-fit: cover;
 }
-footer a span {
-    display: block;
+footer a p {
     margin: 0 auto;
     margin-top: 1.584rem;
     font-size: 0.9rem;
@@ -272,7 +271,7 @@ footer a span {
         margin-bottom: 10rem;
     }
 
-    .titlewrap h3 {
+    .title-wrap h2 {
         font-size: 3.6rem;
         margin-bottom: 8rem;
     }
@@ -294,7 +293,7 @@ footer a span {
 
     /* section - hope form */
 
-    .hope-wrap {
+    .hope-frm {
         max-width: 77.1rem;
         font-size: 2.4rem;
         text-align: center;
@@ -306,7 +305,7 @@ footer a span {
         margin-bottom: 12rem;
     }
 
-    .hope-wrap span {
+    .hope-frm span {
         display: inline-block;
     }
     .hope-group label {
@@ -323,7 +322,7 @@ footer a span {
         margin-bottom: 2rem;
     }
 
-    .hope-wrap .hope-btn {
+    .hope-frm .hope-btn {
         width: calc(100% - 10rem);
         max-width: 56.7rem;
         height: 100%;
@@ -332,7 +331,7 @@ footer a span {
         padding: 2rem 5rem;
     }
 
-    .hope-wrap .hope-btn::after {
+    .hope-frm .hope-btn::after {
         width: 6.4rem;
         height: 7.2rem;
         bottom: -25%;
@@ -373,7 +372,7 @@ footer a span {
     footer a img {
         width: 15.8rem;
     }
-    footer a span {
+    footer a p {
         font-size: 1.2rem;
     }
 
