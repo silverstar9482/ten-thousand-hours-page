@@ -212,9 +212,8 @@ footer a span {
 }
 
 /* modal */
-.modal-container {
+.modal-wrap {
     width: 33rem;
-    display: block;
     margin: 0 auto;
     text-align: center;
     background-color: #fff;
@@ -226,6 +225,7 @@ footer a span {
     left: 50%;
     transform: translate(-50%, -50%);
 
+    /* display: block; */
     display: none;
 }
 
@@ -382,11 +382,12 @@ footer a span {
     }
 
     /* modal */
-    .modal-container {
-        width: 80rem;
+    .modal-wrap {
+        width: calc(100% - (6rem * 2));
+        max-width: 80rem;
         padding: 8rem 14.6rem;
 
-        display: block;
+        /* display: block; */
     }
     .modal-container .modal-tit {
         margin-bottom: 4rem;
@@ -398,11 +399,13 @@ footer a span {
         content: "♥♥♥";
     }
     .modal-container img {
-        width: 43.8rem;
+        width: 100%;
+        max-width: 43.8rem;
         margin-bottom: 6rem;
     }
     .modal-container .close-btn {
-        width: 50.8rem;
+        width: 100%;
+        max-width: 50.8rem;
         font-size: 2.4rem;
     }
 
