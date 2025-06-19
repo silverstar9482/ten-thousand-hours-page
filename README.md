@@ -46,12 +46,12 @@
 
 ```
 📦ten-thousand-hours-page
- ┣ 📂css
- ┃ ┣ 📜reset.css
- ┃ ┗ 📜style.css
- ┣ 📂image
- ┣ 📜index.html
- ┗ 📜README.md
+ ┝ 📂css
+ │ ┝ 📜reset.css
+ │ └ 📜style.css
+ ┝ 📂image
+ ┝ 📜index.html
+ └ 📜README.md
 ```
 
 ## 📸 스크린샷
