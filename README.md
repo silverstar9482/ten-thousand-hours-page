@@ -1,4 +1,4 @@
-# 1만 시간의 법칙
+# <img src="./image/title.png" alt="1만 시간의 법칙" width="200"> 1만 시간의 법칙
 
 > '어떤 분야의 전문가가 되기 위해서는 최소한 1만 시간의 노력이 필요하다'<br />
 > 🔗 [1만 시간의 법칙](https://silverstar9482.github.io/ten-thousand-hours-page/)
