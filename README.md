@@ -64,7 +64,7 @@
 
 <img src="./image/1000-hour-mobile.png" alt="모바일 화면 스크린샷" width="300">
 
-## 🔎 향후 진행 계획
+## 🔎 프로젝트 추후 진행 계획
 
 -   희망 직업과 훈련시간 입력 시 JavaScript로 결과 창에 값이 나올 수 있게 구현
 -   JavaScript로 button 클릭 시 Modal창 노출 구현
